@@ -1,9 +1,19 @@
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+#stageWrap {
+	width: 1000px;
+	margin: 0px auto;
+	height: 730px;
+}
 #stage {
 	background-color: #29abe2;
 	width: 1000px;
 	height: 700px;
 	margin: 0px auto;
-	position: fixed;
+	position: absolute;
 	top: 30px;
 	left: 130px;
 	overflow: hidden;
@@ -33,3 +43,40 @@
 	height: 600px;
 	background: url("../images/images_frontclouds.svg") no-repeat;
 }
+.picRow {
+	width: 1500px;
+	height: 304px;
+	
+	text-align: center;
+	position: absolute;
+	right: -1500px;
+}
+.pics {
+	height: 200px;
+	width: 200px;
+	background-color: grey;
+	display: inline-block;
+	margin: 0px 15px;
+	/*border: 2px solid black;*/
+}
+#scrollSpacer {
+	height: 2500px;
+	width: 1px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#row1 {
+	right: -1500px;
+}
+#row2 {
+	top: 1100px;
+	left: -1500px;
+}
+hr {
+	margin-bottom: 150px;
+}
+
+
+
+
